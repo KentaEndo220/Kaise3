@@ -70,15 +70,14 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
-
-        <div style={{ display: "flex", alignItems: "center", marginTop: 10 }}>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <p className={`${styles.sectionSubText} mt-28`}>Get in touch</p>
+        {/* <div style={{ display: "flex", alignItems: "center", marginTop: 10 }}>
           <a href="mailto:yoshiro.ito.0630@gmail.com" target="_blank"></a>
           <img src={google} height={30} width={30} />{" "}
           <div style={{ marginLeft: "10px" }}>yoshiro.ito.0630@gmail.com</div>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           style={{
             display: "flex",
             gap: 10,
@@ -90,8 +89,8 @@ const Contact = () => {
             <img src={github} height={30} width={30} />
           </a>{" "}
           https://github.com/venuswhispers
-        </div>
-        <div
+        </div> */}
+        {/* <div
           style={{
             display: "flex",
             gap: 10,
@@ -106,7 +105,7 @@ const Contact = () => {
             <img src={linkedin} height={30} width={30}></img>
           </a>{" "}
           Yoshiro Ito
-        </div>
+        </div> */}
         {/* <div
           style={{
             display: "flex",
@@ -145,7 +144,7 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <label className="flex flex-col">
+          {/* <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={4}
@@ -155,7 +154,7 @@ const Contact = () => {
               placeholder="What do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
-          </label>
+          </label> */}
 
           <button
             type="submit"
@@ -168,7 +167,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[850px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>

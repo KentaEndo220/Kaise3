@@ -40,11 +40,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Us",
   },
   {
     id: "work",
-    title: "Work Experience",
+    title: "Service",
   },
   {
     id: "projects",
@@ -52,29 +52,29 @@ export const navLinks = [
   },
   {
     id: "testimonials",
-    title: "Testimonials",
+    title: "Client Testimonals",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Pledge",
   },
 ];
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Mobile or Website Development",
     icon: web,
   },
   {
-    title: "Blockchain Developer",
+    title: "Blockchain Development",
     icon: mobile,
   },
   {
-    title: "AI Developer",
+    title: "AI Development",
     icon: backend,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solving",
     icon: creator,
   },
   // {
@@ -225,83 +225,83 @@ const testimonials = [
     company: "EarnPark",
     image: "https://earnpark.com/_next/static/media/dmitry-gromyko.ac2b4074.png",
   },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects = [
-  {
-    name: "Sappy Seals",
-    description:
-      "NFT platform hosting a collection of 10,000 unique digital collectibles based on the Ethereum blockchain",
-    tags: [
-      {
-        name: "NEXT",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "GraphQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tainlwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sappyseals,
-    to: 'https://www.sappyseals.io/',
-    source_code_link: "https://github.com/venuswhispers",
-  },
-  {
-    name: "Brahma Console",
-    description:
-      "DeFi application offering asset management teams and power users a suite of tools for secure and efficient on-chain execution, automation, and custody",
-    tags: [
-      {
-        name: "Next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Hotjar",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Open Graph",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: brahma,
-    to: 'https://www.brahma.fi/',
-    source_code_link: "https://github.com/venuswhispers",
-  },
-  {
-    name: "NFT Marketplace and Gallery",
-    description:
-      "NFTs—Unique Digital Collectibles and Minting, and gallery.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ERC721",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nft0,
-    to: 'https://weirdos-nft.netlify.app/',
-    source_code_link: "https://github.com/venuswhispers",
-  },
+  // {
+  //   name: "Sappy Seals",
+  //   description:
+  //     "NFT platform hosting a collection of 10,000 unique digital collectibles based on the Ethereum blockchain",
+  //   tags: [
+  //     {
+  //       name: "NEXT",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "GraphQL",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tainlwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: sappyseals,
+  //   to: 'https://www.sappyseals.io/',
+  //   source_code_link: "https://github.com/venuswhispers",
+  // },
+  // {
+  //   name: "Brahma Console",
+  //   description:
+  //     "DeFi application offering asset management teams and power users a suite of tools for secure and efficient on-chain execution, automation, and custody",
+  //   tags: [
+  //     {
+  //       name: "Next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Hotjar",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Open Graph",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: brahma,
+  //   to: 'https://www.brahma.fi/',
+  //   source_code_link: "https://github.com/venuswhispers",
+  // },
+  // {
+  //   name: "NFT Marketplace and Gallery",
+  //   description:
+  //     "NFTs—Unique Digital Collectibles and Minting, and gallery.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "ERC721",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: nft0,
+  //   to: 'https://weirdos-nft.netlify.app/',
+  //   source_code_link: "https://github.com/venuswhispers",
+  // },
   {
     name: "National Cinema Voting System",
     description:

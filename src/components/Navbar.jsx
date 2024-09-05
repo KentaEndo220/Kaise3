@@ -48,13 +48,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`sm:px-8 px-8 w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -69,23 +67,27 @@ const Navbar = () => {
             width={50}
             height={50}
           /> */}
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Yoshiro(Daniel) Ito &nbsp;
+          <p className="text-white text-[30px] font-bold cursor-pointer flex ">
+            Kaise3 &nbsp;
           </p>
         </Link>
-
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.id ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+        <div className="flex flex-row gap-6 items-center">
+          <ul className="list-none hidden sm:flex flex-row gap-10">
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.id ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+          <button className="bg-[#151030] text-[20px] w-[160px] rounded-3xl h-10">
+            Reach out
+          </button>
+        </div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

@@ -7,33 +7,41 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   useEffect(() => {
     var typed = new Typed(".typing", {
-      strings: ["a Developer", "an Engineer", "a Researcher"],
+      strings: ["AI", "MOBILE APPS", "WEBSITES", "BLOCKCHAIN"],
       loop: true,
-      typeSpeed: 65,
-      backSpeed: 65,
+      typeSpeed: 165,
+      backSpeed: 165,
     });
   }, []);
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute z-50 inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute z-50 inset-0 top-[120px] mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+        <div className="flex flex-col justify-center items-center ">
+          <div className="w-5 h-5  rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF] typing"></span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop pretty and responsive UIs,
-            <br /> robust and scalable backends,
-            <br />
-            NFT marketplaces, Web3, ChatGPT...
-          </p>
+        <div className="flex flex-row mt-52">
+          <div className="flex flex-col">
+            {" "}
+            <h1 className={`${styles.heroHeadText} text-white mt-10 ml-8`}>
+              WE&nbsp; BUILD&nbsp;&nbsp;{" "}
+              <span className="text-[#6092CD] typing"></span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-20 text-white-100 ml-8`}>
+              Kaise3 is at the forefront of technological evolution, driving
+              <br /> <br />
+              solutions that are as innovative as they are impactful.
+              <br />
+            </p>
+            <button className="bg-[#151030] text-[32px] w-[320px] rounded-3xl ml-16 p-1 mt-16 h-16">
+              Speak to our team
+            </button>
+          </div>
+          <div className="flex"></div>
         </div>
       </div>
       <Earth />

@@ -15,7 +15,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[420px] w-full"
+    className="bg-black-200 p-10 rounded-3xl xs:w-[620px] h-[720px] w-full"
   >
     <p className="text-white font-black text-[48px]">"</p>
 
@@ -45,18 +45,19 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <section
-      className="mt-12 bg-black-100 rounded-[20px] max-w-7xl mx-auto"
+      className="h-screen bg-tertiary rounded-[20px] mx-auto flex flex-col items-center justify-center"
       id="testimonials"
     >
       <div
-        className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
+        className={`rounded-2xl min-h-[300px] flex items-center justify-center`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <h2 className="text-white font-[krona one] md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+            Client Testimonials.
+          </h2>
         </motion.div>
       </div>
-      {/* <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}> */}
+      {/* Uncomment this section if you want to include the testimonials */}
       <div
         className={`${styles.paddingX} -mt-20 pb-14 flex justify-center gap-7`}
       >
