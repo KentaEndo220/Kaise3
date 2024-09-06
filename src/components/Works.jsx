@@ -6,6 +6,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import Arrow from "../assets/projects/arrow.svg";
+import Arrow1 from "../assets/projects/arrow1.svg";
 
 const ProjectCard = ({
   index,
@@ -63,7 +65,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="h-screen flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <motion.div variants={textVariant()}>
           <h2 className="text-white font-[krona one] md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
             Some of our previous projects.
@@ -83,9 +85,19 @@ const Works = () => {
     </motion.p>
   </div> */}
         <div className="mt-20 flex flex-wrap gap-20 justify-center">
+          <img
+            className="max-w-none w-32 sm:w-36 md:w-44 lg:w-48 xl:w-52"
+            src={Arrow}
+            alt="arrow"
+          />
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
+          <img
+            className="max-w-none w-32 sm:w-36 md:w-44 lg:w-48 xl:w-52"
+            src={Arrow1}
+            alt="arrow"
+          />
         </div>
       </div>
     </>

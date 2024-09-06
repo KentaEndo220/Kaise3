@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sm:px-8 px-8 w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`sm:px-8 px-4 w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -60,14 +60,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          {/* <img
-            src={avatar}
-            alt="logo"
-            style={{ borderRadius: 20, opacity: 0.8 }}
-            width={50}
-            height={50}
-          /> */}
-          <p className="text-white text-[30px] font-bold cursor-pointer flex ">
+          <p className="text-white text-[30px] font-bold cursor-pointer flex">
             Kaise3 &nbsp;
           </p>
         </Link>
@@ -84,11 +77,10 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-[#151030] text-[20px] w-[160px] rounded-3xl h-10">
+          <button className="bg-[#151030] text-[16px] sm:text-[20px] w-[140px] sm:w-[160px] rounded-3xl h-10">
             Reach out
           </button>
         </div>
-
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -96,7 +88,6 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
-
           <div
             className={`${
               !toggle ? "hidden" : "flex"

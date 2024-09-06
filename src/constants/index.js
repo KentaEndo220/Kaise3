@@ -236,72 +236,72 @@ const testimonials = [
 ];
 
 const projects = [
-  // {
-  //   name: "Sappy Seals",
-  //   description:
-  //     "NFT platform hosting a collection of 10,000 unique digital collectibles based on the Ethereum blockchain",
-  //   tags: [
-  //     {
-  //       name: "NEXT",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "GraphQL",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tainlwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: sappyseals,
-  //   to: 'https://www.sappyseals.io/',
-  //   source_code_link: "https://github.com/venuswhispers",
-  // },
-  // {
-  //   name: "Brahma Console",
-  //   description:
-  //     "DeFi application offering asset management teams and power users a suite of tools for secure and efficient on-chain execution, automation, and custody",
-  //   tags: [
-  //     {
-  //       name: "Next",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Hotjar",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Open Graph",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: brahma,
-  //   to: 'https://www.brahma.fi/',
-  //   source_code_link: "https://github.com/venuswhispers",
-  // },
-  // {
-  //   name: "NFT Marketplace and Gallery",
-  //   description:
-  //     "NFTs—Unique Digital Collectibles and Minting, and gallery.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "ERC721",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: nft0,
-  //   to: 'https://weirdos-nft.netlify.app/',
-  //   source_code_link: "https://github.com/venuswhispers",
-  // },
+  {
+    name: "Sappy Seals",
+    description:
+      "NFT platform hosting a collection of 10,000 unique digital collectibles based on the Ethereum blockchain",
+    tags: [
+      {
+        name: "NEXT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tainlwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sappyseals,
+    to: 'https://www.sappyseals.io/',
+    source_code_link: "https://github.com/venuswhispers",
+  },
+  {
+    name: "Brahma Console",
+    description:
+      "DeFi application offering asset management teams and power users a suite of tools for secure and efficient on-chain execution, automation, and custody",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hotjar",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Open Graph",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: brahma,
+    to: 'https://www.brahma.fi/',
+    source_code_link: "https://github.com/venuswhispers",
+  },
+  {
+    name: "NFT Marketplace and Gallery",
+    description:
+      "NFTs—Unique Digital Collectibles and Minting, and gallery.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ERC721",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft0,
+    to: 'https://weirdos-nft.netlify.app/',
+    source_code_link: "https://github.com/venuswhispers",
+  },
   {
     name: "National Cinema Voting System",
     description:
